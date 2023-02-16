@@ -1,0 +1,17 @@
+---
+import Navbar from '../components/Navbar.astro'
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>siosw</title>
+  </head>
+  <body class="font-mono p-4 bg-yellow-50 text-blue-900">
+    <Navbar />
+    <div class="pt-4 max-w-prose text-justify">
+      <slot />
+    </div>
+  </body>
+</html>
